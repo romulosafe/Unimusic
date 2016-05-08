@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Encontre sua Música!</title>
+
+<meta name="description"
+	content="Projeto da disciplina SRI - Encontre Sua Música">
+<meta name="author"
+	content="Romulo Ferreira, Tiago Guedes e Jecson Carvalho">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	<!--Container do bootstrap -->
+	<div class="container container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+
+                <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <button type="button" class="btn btn-default btn-lg">
+                                <span class="glyphicon glyphicon-home"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            Titulo da app
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <span class="glyphicon glyphicon-envelope"></span> Contato
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <span class="glyphicon glyphicon-save"></span> Projeto
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                </nav>
+
+				<!--Descrição da pagina com titulo -->
+				<div class="">
+					<h2>Seja bem vindo e encontre sua música.</h2>
+					<p>
+						Nós te ajudamos a encontrar aquela música que você sabe um
+						pedacinho, mas não lembra o nome. <br /> Encontre também as suas
+						musicas favorias.
+					</p>
+				</div>
+
+				<form class="form-group" role="search">
+
+                        <div class="col-md-12 col-sm-12">
+                            <input type="text" class="form-control" id="search" placeholder="Digite aqui">
+                        </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <!-- Lista de estilos musicais -->
+                        <select class="form-control">
+                            <option>Todos os estilos</option>
+                            <option value="axe">Axé</option>
+                            <option value="black-music">Black Music</option>
+                            <option value="blues">Blues</option>
+                            <option value="bossa-nova">Bossa Nova</option>
+                            <option value="chillout">Chillout</option>
+                            <option value="classic-rock">Classic Rock</option>
+                            <option value="classico">Clássico</option>
+                            <option value="country">Country</option>
+                            <option value="dance">Dance</option>
+                            <option value="disco">Disco</option>
+                            <option value="electronica">Electronica</option>
+                            <option value="emocore">Emocore</option>
+                            <option value="fado">Fado</option>
+                            <option value="folk">Folk</option>
+                            <option value="forro">Forró</option>
+                            <option value="funk">Funk</option>
+                            <option value="funk-carioca">Funk Carioca</option>
+                            <option value="gospel">Gospel/Religioso</option>
+                            <option value="gotico">Gótico</option>
+                            <option value="grunge">Grunge</option>
+                            <option value="hard-rock">Hard Rock</option>
+                            <option value="hardcore">Hardcore</option>
+                            <option value="heavy-metal">Heavy Metal</option>
+                            <option value="hip-hop">Hip Hop</option>
+                            <option value="house">House</option>
+                            <option value="indie">Indie</option>
+                            <option value="industrial">Industrial</option>
+                            <option value="infantil">Infantil</option>
+                            <option value="instrumental">Instrumental</option>
+                            <option value="j-pop">J-Pop/J-Rock</option>
+                            <option value="jazz">Jazz</option>
+                            <option value="jovem-guarda">Jovem Guarda</option>
+                            <option value="k-pop-k-rock">K-Pop/K-Rock</option>
+                            <option value="kizomba">Kizomba</option>
+                            <option value="metal">Metal</option>
+                            <option value="mpb">MPB</option>
+                            <option value="new-age">New Age</option>
+                            <option value="new-wave">New Wave</option>
+                            <option value="pagode">Pagode</option>
+                            <option value="piano-rock">Piano Rock</option>
+                            <option value="pop">Pop</option>
+                            <option value="pop-punk">Pop/Punk</option>
+                            <option value="pop-rock">Pop/Rock</option>
+                            <option value="pos-punk">Pós-Punk</option>
+                            <option value="post-rock">Post-Rock</option>
+                            <option value="power-pop">Power-Pop</option>
+                            <option value="progressivo">Progressivo</option>
+                            <option value="psicodelia">Psicodelia</option>
+                            <option value="punk-rock">Punk Rock</option>
+                            <option value="r-n-b">R&B</option>
+                            <option value="rap">Rap</option>
+                            <option value="reggae">Reggae</option>
+                            <option value="reggaeton">Reggaeton</option>
+                            <option value="regional">Regional</option>
+                            <option value="rock">Rock</option>
+                            <option value="rock-alternativo">Rock Alternativo</option>
+                            <option value="rockabilly">Rockabilly</option>
+                            <option value="romantica">Romântico</option>
+                            <option value="samba">Samba</option>
+                            <option value="samba-enredo">Samba Enredo</option>
+                            <option value="sertanejo">Sertanejo</option>
+                            <option value="ska">Ska</option>
+                            <option value="soft-rock">Soft Rock</option>
+                            <option value="soul-music">Soul Music</option>
+                            <option value="surf-music">Surf Music</option>
+                            <option value="tecnopop">Tecnopop</option>
+                            <option value="trance">Trance</option>
+                            <option value="trilha-sonora">Trilha Sonora</option>
+                            <option value="trip-hop">Trip-Hop</option>
+                            <option value="velha-guarda">Velha Guarda</option>
+                            <option value="world-music">World Music</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <!--Botão de busca-->
+                        <button type="submit" class="btn btn-primary btn-block" id="btn-search">
+                            <span class="" id="loading"></span>
+                            Buscar
+                        </button>
+                    </div>
+
+                    <!-- Espace -->
+                    <div class="col-md-offset-4"></div>
+                    <div class="col-md-offset-2"></div>
+
+                    <!--Check Box-->
+						<div class="col-md-8">
+							<div class="checkbox">
+								<label><input type="checkbox" value="artista">Artista</label>
+								<label><input type="checkbox" value="album">Album</label>
+								<label><input type="checkbox" value="conteudo">Conteúdo</label>
+								<label><input type="checkbox" value="titulo">Título</label>
+								<label><input type="checkbox" value="genero">Gênero</label>
+							</div>
+						</div>
+                    <div class="col-md-offset-2"></div>
+				</form>
+			</div>
+            <div class="col-md-12" id="resultList">
+
+            </div>
+        </div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
