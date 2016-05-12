@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
 
@@ -37,11 +37,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#page-top">Unimusic</a>
-                <input type="text" class="form-control form-horizontal" placeholder="Digite um trecho, título ou artista."/>
-                <i class="glyphicon glyphicon-search form-control-feedback"></i>
+                <input id="search" type="text" class="form-control form-horizontal" placeholder="Digite um trecho, título ou artista."/>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!-- Itens de Menu -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -85,7 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Musicas</h2>
+                    <h2 id="gridMusicTitle">Musicas</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -288,6 +287,16 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
+    
+    <!-- jQuery UI core -->
+    <script src="js/jquery-ui.min.js"></script>
+
+    <!-- App  -->
+    <script src="js/scripts.js"></script>
+    
+    <script src="js/typehead.js"></script>
+    <script src="js/autocomplete.js"></script>
+
 
 </body>
 
