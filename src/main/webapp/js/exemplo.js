@@ -1,6 +1,3 @@
-/**
- * 
- */
 
 function showLetra (data,art,mus,arrayid) {
 	if (! arrayid) arrayid = 0;
