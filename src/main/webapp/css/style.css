@@ -32,3 +32,8 @@
     from { transform: scale(1) rotate(0deg);}
     to { transform: scale(1) rotate(360deg);}
 }
+
+.form-control {
+    display: initial !important;
+    width: 82% !important;
+}    
