@@ -1,9 +1,11 @@
 $(document).ready(function() {
     var search = $("#search");
-
+    var searchButton = $("#searchButton");
+    
+    searchButton.mouseup(onClickupSearchElement);    
     search.keyup(onKeyupSearchElement);
     search.focus();
-
+    
     createMusicItem({isFirst: true});
 
 });
@@ -54,6 +56,14 @@ var onKeyupSearchElement = function(e){
         delay: 700
     });
 
+}
+
+var onClickupSearchElement = function(e){
+	
+	$("searchButton")({
+		source: getMusic,
+		delay: 700
+	});
 }
 
 /*Consulta musicas na API do vagalume*/
