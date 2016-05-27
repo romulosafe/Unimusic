@@ -32,26 +32,19 @@
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <!-- Brand and toggle get grouped for better mobile display -->            
+            <div class="navbar-header page-scroll">                
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                
 
                 <a class="navbar-brand" href="#page-top"><i class="fa fa-music fa-1x fa-rotate-180"></i>nimusic</a>
-                <table>
-                	<tbody>
-                		<tr>
-	                		<td>
-	                			<input id="search" type="text" class="form-control form-horizontal" placeholder="Digite um trecho, título ou artista."/>
-    	            			<button>Pesquisar</button>                		
-	                		</td>
-                		</tr>                	
-                	</tbody>
-				</table>
+                <input id="search" type="text" class="form-control form-horizontal" placeholder="Digite um trecho, título ou artista."/>                
+                <a class="btn btn-primary" id="searchButton"><i class="glyphicon glyphicon-search"></i></a> 
             </div>
 
             <!-- Itens de Menu -->
@@ -61,7 +54,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#music">Musicas</a>
+                        <a href="#music">Músicas</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">Sobre</a>
@@ -103,7 +96,7 @@
             </div>
             <div class="row music-list">
                 <div class="col-sm-4 music-item">
-                    <a href="#musicModalModel" class="music-link" data-toggle="modal">
+                    <a href="#musicModalModel" class="music-link" data-toggle="modal"></a>
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-eye fa-3x"></i>
@@ -114,9 +107,8 @@
                         	<h5 class="music-title">Titulo</h5>
                         	<h6 class="artist-name">Artist Name</h6>
                        	</div>
-                        <img src="" class="img-responsive music-img" alt="">
-                        <hr/>
-                    </a>
+                        <img src="" class="img-responsive music-img" alt="" />                        
+                    
                 </div>
             </div>
         </div>
